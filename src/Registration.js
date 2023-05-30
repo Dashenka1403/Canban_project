@@ -42,7 +42,6 @@ export default function Registration(props){
             <Form.Control type="password" placeholder="Введите пароль"/>
           </Form.Group>
           <Form.Group controlId="fromBasicCheckbox">
-            <Form.Label>Пароль</Form.Label>
             <Form.Check type="checkbox" label="Запомнить меня"/>
           </Form.Group>
           <button  className="btn btn-outline-primary"  >Сохранить</button>
